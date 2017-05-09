@@ -1,0 +1,14 @@
+.img-responsive {
+  max-height: 50px;
+}
+
+.list-group {
+  .pull-left { width: 80%; }
+  .pull-right {
+    text-align: right;
+    width: 20%;
+    img {
+      display: inline-block;
+    }
+  }
+}

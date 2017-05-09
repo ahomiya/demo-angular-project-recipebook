@@ -1,0 +1,34 @@
+/* Overriding and customizing Bootstrap styles */
+
+// List group
+.list-group {
+  a.list-group-item {
+    cursor: pointer;
+  }
+}
+
+// Dropdown
+.dropdown-menu {
+  li a {
+    cursor: pointer;
+  }
+}
+
+// Navbar
+.navbar-nav {
+  li a {
+    cursor: pointer;
+  }
+}
+
+/* Styles for Angular classes */
+
+// Invalid form controls
+input,
+textarea {
+  &.ng-invalid {
+    &.ng-touched {
+      border: 1px solid red;
+    }
+  }
+}
